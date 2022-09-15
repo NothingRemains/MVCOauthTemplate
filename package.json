@@ -1,0 +1,17 @@
+{
+  "name": "mvcoauthtemplate",
+  "version": "1.0.0",
+  "description": "MVC template for using Oauth 2.0 with Google strategy",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "set \"NODE_ENV=development\" && nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect-mongo": "^4.6.0",
+    "nodemon": "^2.0.19"
+  }
+}
